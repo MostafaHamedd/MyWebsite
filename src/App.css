@@ -68,3 +68,37 @@ body {
   overflow: hidden;
   border-right: 2px solid gray;
 }
+
+.container div {
+  width: 20%;
+  height: 100px;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+.container1 {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.container2 {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.container3 {
+  position: absolute;
+  bottom: 0;
+  width: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
