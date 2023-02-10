@@ -40,8 +40,31 @@ body {
   background-color: #9cb3b9;
 }
 .center {
+  width: fit-content;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 15;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing-text {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15;
+  width: 100px;
+  animation: typing 2s steps(50, end) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid gray;
 }
