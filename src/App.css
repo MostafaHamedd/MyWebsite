@@ -66,47 +66,26 @@ body {
   animation: typing 2s steps(50, end) forwards;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 2px solid gray;
+  /* border-right: 2px solid gray; */
 }
 
 .containerTest {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   margin-left: 100px;
-  margin-top: 35%;
+  margin-top: 15%;
 }
 
 .container1 {
   width: 100px;
+  height: 100px;
+  border: 3px solid grey;
+  padding: 2px;
+  cursor: default;
 }
 
-.container2 {
-  padding-right: 10px;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-
-  margin-bottom: 50px;
-}
-
-.container3 {
-  padding-left: 300px;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-
-  margin-bottom: 50px;
-}
 .container1:hover .photo {
-  transform: scale(1.2);
-  transition: transform 0.5s ease-in-out;
-}
-.container2:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s ease-in-out;
-}
-
-.container3:hover {
+  content: "Your text";
   transform: scale(1.2);
   transition: transform 0.5s ease-in-out;
 }
@@ -114,4 +93,19 @@ body {
   height: 100px;
   width: 100px;
   transition: transform 0.5s ease-in-out;
+}
+.text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.container1:hover .text {
+  opacity: 1;
 }
