@@ -69,36 +69,49 @@ body {
   border-right: 2px solid gray;
 }
 
-.container div {
-  width: 20%;
-  height: 100px;
-  background-color: #282c34;
-  color: white;
-  text-align: center;
+.containerTest {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-left: 100px;
+  margin-top: 35%;
 }
+
 .container1 {
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 50px;
+  width: 100px;
 }
 
 .container2 {
+  padding-right: 10px;
   position: absolute;
   bottom: 0;
-  width: 50%;
   display: flex;
-  justify-content: space-between;
+
   margin-bottom: 50px;
 }
 
 .container3 {
+  padding-left: 300px;
   position: absolute;
   bottom: 0;
-  width: 5%;
   display: flex;
-  justify-content: space-between;
+
   margin-bottom: 50px;
+}
+.container1:hover .photo {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+.container2:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.container3:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out;
+}
+.photo {
+  height: 100px;
+  width: 100px;
+  transition: transform 0.5s ease-in-out;
 }
