@@ -128,3 +128,18 @@ body {
   float: none;
   vertical-align: top;
 }
+
+.mainPage {
+  /* background-color: lightgray; */
+  background-image: linear-gradient(to right, #076585, #fff);
+}
+.projectHeader {
+  margin-top: 30px;
+}
+
+.projectLine {
+  height: 5px;
+  border: none;
+  background-color: black;
+  size: 20px;
+}

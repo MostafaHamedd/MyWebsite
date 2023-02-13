@@ -38,16 +38,28 @@ function navBar() {
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav d-flex justify-content-center">
+      <div
+        class="collapse navbar-collapse d-flex justify-content-center"
+        id="navbarText"
+      >
+        <ul class="navbar-nav ">
           <li class="nav-item active">
             <a class="nav-link" href="#">
               Home <span class="sr-only"></span>
             </a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              Contact
+            <a class="nav-link" href="https://github.com/mostafaHamedd">
+              Github
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.linkedin.com/in/mostafa-hamed-393a5b215/"
+            >
+              LinkedIn
             </a>
           </li>
           <li class="nav-item">
@@ -63,11 +75,16 @@ function navBar() {
 }
 function App() {
   return (
-    <div>
+    <div className="mainPage">
       {navBar()}
-      <div class="container" style={{ marginTop: "250px" }}>
-        {/* <h1 className="typing-text">Mostafa Hamed</h1> */}
-
+      <h1 className="typing-text">Mostafa Hamed</h1>
+      <div class="row row align-content-center projectHeader">
+        <h2 class="text-black " style={{ marginTop: "50px" }}>
+          Latest Projects
+        </h2>
+      </div>
+      <hr className="projectLine"></hr>
+      <div class="container" style={{ marginTop: "50px" }}>
         <div class="row row align-content-center">
           {project(
             "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Arandon_-_%C3%89glise_Saint-Cyprien.jpg/1280px-Arandon_-_%C3%89glise_Saint-Cyprien.jpg",
