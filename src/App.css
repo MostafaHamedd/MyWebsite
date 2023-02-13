@@ -27,7 +27,13 @@
 .App-link {
   color: #61dafb;
 }
-
+.navbar-brand span {
+  font-size: small;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -77,8 +83,8 @@ body {
 }
 
 .container1 {
-  width: 100px;
-  height: 100px;
+  width: 104px;
+  height: 120px;
   border: 3px solid grey;
   padding: 2px;
   cursor: default;
@@ -108,4 +114,17 @@ body {
 
 .container1:hover .text {
   opacity: 1;
+}
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner {
+  text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
