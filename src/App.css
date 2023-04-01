@@ -75,6 +75,13 @@ body {
   /* border-right: 2px solid gray; */
 }
 
+.headerText {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .containerTest {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;

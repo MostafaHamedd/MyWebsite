@@ -1,7 +1,8 @@
 import "./App.css";
 import image from "./automation.jpg";
-import courseTracker from "./CourseTracker.png";
-import ims from "./IMS.png";
+import courseTracker from "./course_tracker_img.png";
+import ims from "./Inventory-Management-System-Pic.jpg";
+import auto_reg from "./automted_reg.png";
 import React, { Component } from "react";
 import "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -77,7 +78,7 @@ function App() {
   return (
     <div className="mainPage">
       {navBar()}
-      <h1>Mostafa Hamed</h1>
+      <h1 className="headerText">Mostafa Hamed</h1>
       <div class="row row align-content-center projectHeader">
         <h2 class="text-black " style={{ marginTop: "50px" }}>
           Latest Projects
@@ -87,20 +88,20 @@ function App() {
       <div class="container" style={{ marginTop: "50px" }}>
         <div class="row row align-content-center">
           {project(
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Arandon_-_%C3%89glise_Saint-Cyprien.jpg/1280px-Arandon_-_%C3%89glise_Saint-Cyprien.jpg",
+            courseTracker,
             "https://github.com/MostafaHamedd/Course-grade-tracker",
             "Course Tracker App",
             "An app using dart to help students track course grades and to set a target with the use of a database to store and update user’s changes."
           )}
           {project(
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Arandon_-_%C3%89glise_Saint-Cyprien.jpg/1280px-Arandon_-_%C3%89glise_Saint-Cyprien.jpg",
+            ims,
             "https://github.com/MostafaHamedd/Inventory-Management-System",
             "Inventory Managment System",
             "An Inventory Management System app using Agile development that allows the user to customize and manage their own inventory."
           )}
 
           {project(
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Arandon_-_%C3%89glise_Saint-Cyprien.jpg/1280px-Arandon_-_%C3%89glise_Saint-Cyprien.jpg",
+            auto_reg,
             "https://github.com/MostafaHamedd/UManitoba-Course-Registration-Automation-Educational-Purposes-",
             "Automated Registration",
             "A script using Selenium to automate the process of enrolling in courses at the University of Manitoba."
