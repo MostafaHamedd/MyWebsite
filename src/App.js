@@ -21,7 +21,7 @@ function project(img, url, title, dis, langs, tech) {
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{dis}</p>
           <p className="card-text">
-            Languages : <strong>{langs}</strong>
+            Language : <strong>{langs}</strong>
           </p>
           <p className="card-text">
             Technologies used : <strong>{tech}</strong>
