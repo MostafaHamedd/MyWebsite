@@ -15,7 +15,7 @@ function openResume() {
 function project(img, url, title, dis, langs, tech) {
   return (
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <div className="card" style={{ width: "20rem", height: "100%" }}>
+      <div className="card">
         <img src={img} class="card-img-top" alt="..."></img>
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
@@ -26,7 +26,7 @@ function project(img, url, title, dis, langs, tech) {
           <p className="card-text">
             Technologies used : <strong>{tech}</strong>
           </p>
-          <a href={url} target="_blank" className="btn btn-dark">
+          <a href={url} target="_blank" className="btn btn-dark button">
             Project Github link
           </a>
         </div>
@@ -102,13 +102,23 @@ function App() {
       <div class="container" style={{ marginTop: "50px" }}>
         <div class="row row align-content-center">
           {project(
+            auto_reg,
+            "https://github.com/MostafaHamedd/UManitoba-Course-Registration-Automation-Educational-Purposes-",
+            "Automated Registration",
+            "A script using Selenium to automate the process of enrolling in courses at the University of Manitoba.",
+            "Python",
+            "Selenium"
+          )}
+
+          {project(
             courseTracker,
             "https://github.com/MostafaHamedd/Course-grade-tracker",
-            "Course Tracker App",
+            "Course Tracker App (Andriod/IOS)",
             "An app using dart to help students track course grades and to set a target with the use of a database to store and update user’s changes.",
             "Dart",
             "Google Flutter"
           )}
+
           {project(
             ims,
             "https://github.com/MostafaHamedd/Inventory-Management-System",
@@ -117,20 +127,14 @@ function App() {
             "Java",
             "Android Studio"
           )}
-
-          {project(
-            auto_reg,
-            "https://github.com/MostafaHamedd/UManitoba-Course-Registration-Automation-Educational-Purposes-",
-            "Automated Registration",
-            "A script using Selenium to automate the process of enrolling in courses at the University of Manitoba.",
-            "Python",
-            "Selenium"
-          )}
         </div>
       </div>
-      <div className="construction-message">
-        <p>This website is currently under construction.</p>
-      </div>
+      <footer>
+        <div class="under-construction">
+          <h2>Website under construction</h2>
+          <p>Please check back soon for updates.</p>
+        </div>
+      </footer>
     </div>
   );
 }

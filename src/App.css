@@ -25,6 +25,19 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.button {
+  /* set button styles */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4286f4;
+  color: #fff;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
 
 .App-link {
   color: #61dafb;
@@ -143,7 +156,6 @@ html {
 .mainPage {
   background-image: linear-gradient(to right, #076585, #fff);
   background-size: cover;
-  height: 100vh;
   overflow: auto;
 }
 .projectHeader {
@@ -162,4 +174,43 @@ html {
   border: none;
   background-color: black;
   size: 20px;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: auto;
+  transition: transform 0.5s;
+  align-items: stretch;
+  margin-left: 50px;
+}
+
+.card .content {
+  height: 200px;
+  overflow: auto;
+}
+
+.card:hover {
+  transform: translateZ(50px) scale(1.2);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.under-construction {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.under-construction h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.under-construction p {
+  font-size: 18px;
+  line-height: 1.5;
 }
