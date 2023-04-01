@@ -1,12 +1,14 @@
 .App {
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+html,
+body {
+  height: 100%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -137,8 +139,9 @@ body {
 }
 
 .mainPage {
-  /* background-color: lightgray; */
   background-image: linear-gradient(to right, #076585, #fff);
+  background-size: cover;
+  height: 100vh;
 }
 .projectHeader {
   margin-top: 30px;
