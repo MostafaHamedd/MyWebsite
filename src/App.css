@@ -27,16 +27,7 @@ body {
 }
 .button {
   /* set button styles */
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4286f4;
-  color: #fff;
-  border-radius: 5px;
-  transition: transform 0.2s ease-in-out;
-}
-
-.button:hover {
-  transform: scale(1.1);
+  transition: all 1s ease-in-out;
 }
 
 .App-link {

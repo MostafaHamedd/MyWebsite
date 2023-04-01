@@ -26,7 +26,7 @@ function project(img, url, title, dis, langs, tech) {
           <p className="card-text">
             Technologies used : <strong>{tech}</strong>
           </p>
-          <a href={url} target="_blank" className="btn btn-dark button">
+          <a href={url} target="_blank" className="button btn btn-dark">
             Project Github link
           </a>
         </div>
@@ -98,7 +98,7 @@ function App() {
           Latest Projects
         </h2>
       </div> */}
-      <hr className="projectLine"></hr>
+      {/* <hr className="projectLine"></hr> */}
       <div class="container" style={{ marginTop: "50px" }}>
         <div class="row row align-content-center">
           {project(
