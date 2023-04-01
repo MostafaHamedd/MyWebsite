@@ -20,7 +20,7 @@ function project(img, url, title, dis) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{dis}</p>
-          <a href={url} className="btn btn-dark">
+          <a href={url} target="_blank" className="btn btn-dark">
             Project Github link
           </a>
         </div>
@@ -50,13 +50,18 @@ function navBar() {
       >
         <ul class="navbar-nav ">
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/mostafaHamedd">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://github.com/mostafaHamedd"
+            >
               Github
             </a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
+              target="_blank"
               href="https://www.linkedin.com/in/mostafa-hamed-393a5b215/"
             >
               LinkedIn
@@ -65,6 +70,7 @@ function navBar() {
           <li class="nav-item">
             <a
               class="nav-link"
+              target="_blank"
               href="https://github.com/MostafaHamedd/MyWebsite/blob/master/Mostafa's%20Resume%20(April%201st).pdf"
             >
               Resume
