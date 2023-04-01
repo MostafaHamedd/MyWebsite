@@ -8,7 +8,7 @@ import "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import resume from "./resume.pdf";
-
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 function openResume() {
   window.open("data:application/pdf;base64, " + { resume });
 }
@@ -93,11 +93,11 @@ function App() {
     <div className="mainPage">
       {navBar()}
       <h1 className="headerText">Mostafa Hamed</h1>
-      <div class="row row align-content-center projectHeader">
+      {/* <div class="row row align-content-center projectHeader">
         <h2 class="text-black " style={{ marginTop: "50px" }}>
           Latest Projects
         </h2>
-      </div>
+      </div> */}
       <hr className="projectLine"></hr>
       <div class="container" style={{ marginTop: "50px" }}>
         <div class="row row align-content-center">
@@ -127,6 +127,9 @@ function App() {
             "Selenium"
           )}
         </div>
+      </div>
+      <div className="construction-message">
+        <p>This website is currently under construction.</p>
       </div>
     </div>
   );
