@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.55545422.css",
-    "main.js": "/MyWebsite/static/js/main.415ce416.js",
+    "main.css": "/MyWebsite/static/css/main.e92f4e64.css",
+    "main.js": "/MyWebsite/static/js/main.b25c8a6c.js",
     "static/js/321.2ff7a486.chunk.js": "/MyWebsite/static/js/321.2ff7a486.chunk.js",
+    "static/media/automted_reg.png": "/MyWebsite/static/media/automted_reg.ead680b0d8191be67909.png",
+    "static/media/Inventory-Management-System-Pic.jpg": "/MyWebsite/static/media/Inventory-Management-System-Pic.12f16e54e8da4e6b5e5d.jpg",
     "static/media/automation.jpg": "/MyWebsite/static/media/automation.a326b1bced6dbc62945a.jpg",
+    "static/media/course_tracker_img.png": "/MyWebsite/static/media/course_tracker_img.63db7727a80707664045.png",
     "index.html": "/MyWebsite/index.html",
-    "main.55545422.css.map": "/MyWebsite/static/css/main.55545422.css.map",
-    "main.415ce416.js.map": "/MyWebsite/static/js/main.415ce416.js.map",
+    "main.e92f4e64.css.map": "/MyWebsite/static/css/main.e92f4e64.css.map",
+    "main.b25c8a6c.js.map": "/MyWebsite/static/js/main.b25c8a6c.js.map",
     "321.2ff7a486.chunk.js.map": "/MyWebsite/static/js/321.2ff7a486.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55545422.css",
-    "static/js/main.415ce416.js"
+    "static/css/main.e92f4e64.css",
+    "static/js/main.b25c8a6c.js"
   ]
 }
