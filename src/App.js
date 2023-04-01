@@ -7,10 +7,15 @@ import React, { Component } from "react";
 import "jquery";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import resume from "./resume.pdf";
+
+function openResume() {
+  window.open("data:application/pdf;base64, " + { resume });
+}
 function project(img, url, title, dis) {
   return (
     <div class="col-lg-4 col-md-6 col-sm-12">
-      <div className="card" style={{ width: "20rem" }}>
+      <div className="card" style={{ width: "20rem", height: "100%" }}>
         <img src={img} class="card-img-top" alt="..."></img>
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
@@ -44,12 +49,6 @@ function navBar() {
         id="navbarText"
       >
         <ul class="navbar-nav ">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
-              Home <span class="sr-only"></span>
-            </a>
-          </li>
-
           <li class="nav-item">
             <a class="nav-link" href="https://github.com/mostafaHamedd">
               Github
@@ -64,7 +63,10 @@ function navBar() {
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a
+              class="nav-link"
+              href="https://github.com/MostafaHamedd/MyWebsite/blob/master/Mostafa's%20Resume%20(April%201st).pdf"
+            >
               Resume
             </a>
           </li>
