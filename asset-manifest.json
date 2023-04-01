@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyWebsite/static/css/main.0638b147.css",
-    "main.js": "/MyWebsite/static/js/main.17403bb3.js",
+    "main.css": "/MyWebsite/static/css/main.1cf4968e.css",
+    "main.js": "/MyWebsite/static/js/main.0dbdcacb.js",
     "static/js/321.2ff7a486.chunk.js": "/MyWebsite/static/js/321.2ff7a486.chunk.js",
     "static/media/resume.pdf": "/MyWebsite/static/media/resume.128d63b87545d16c79b8.pdf",
     "static/media/automted_reg.png": "/MyWebsite/static/media/automted_reg.ead680b0d8191be67909.png",
@@ -9,12 +9,12 @@
     "static/media/automation.jpg": "/MyWebsite/static/media/automation.a326b1bced6dbc62945a.jpg",
     "static/media/course_tracker_img.png": "/MyWebsite/static/media/course_tracker_img.63db7727a80707664045.png",
     "index.html": "/MyWebsite/index.html",
-    "main.0638b147.css.map": "/MyWebsite/static/css/main.0638b147.css.map",
-    "main.17403bb3.js.map": "/MyWebsite/static/js/main.17403bb3.js.map",
+    "main.1cf4968e.css.map": "/MyWebsite/static/css/main.1cf4968e.css.map",
+    "main.0dbdcacb.js.map": "/MyWebsite/static/js/main.0dbdcacb.js.map",
     "321.2ff7a486.chunk.js.map": "/MyWebsite/static/js/321.2ff7a486.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0638b147.css",
-    "static/js/main.17403bb3.js"
+    "static/css/main.1cf4968e.css",
+    "static/js/main.0dbdcacb.js"
   ]
 }
