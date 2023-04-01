@@ -192,6 +192,13 @@ html {
     margin-bottom: 0;
   }
 }
+
+@media screen and (max-width: 991.98px) {
+  .card {
+    margin-bottom: 80px;
+    margin-left: 0;
+  }
+}
 footer {
   background-color: #918f8fec;
   padding: 20px;
