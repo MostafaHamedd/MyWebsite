@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="mainPage">
       {navBar()}
-      <h1 className="typing-text">Mostafa Hamed</h1>
+      <h1>Mostafa Hamed</h1>
       <div class="row row align-content-center projectHeader">
         <h2 class="text-black " style={{ marginTop: "50px" }}>
           Latest Projects
