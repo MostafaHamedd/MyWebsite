@@ -12,7 +12,7 @@ import resume from "./resume.pdf";
 function openResume() {
   window.open("data:application/pdf;base64, " + { resume });
 }
-function project(img, url, title, dis) {
+function project(img, url, title, dis, langs, tech) {
   return (
     <div class="col-lg-4 col-md-6 col-sm-12">
       <div className="card" style={{ width: "20rem", height: "100%" }}>
@@ -20,6 +20,12 @@ function project(img, url, title, dis) {
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{dis}</p>
+          <p className="card-text">
+            Languages : <strong>{langs}</strong>
+          </p>
+          <p className="card-text">
+            Technologies used : <strong>{tech}</strong>
+          </p>
           <a href={url} target="_blank" className="btn btn-dark">
             Project Github link
           </a>
@@ -99,20 +105,26 @@ function App() {
             courseTracker,
             "https://github.com/MostafaHamedd/Course-grade-tracker",
             "Course Tracker App",
-            "An app using dart to help students track course grades and to set a target with the use of a database to store and update user’s changes."
+            "An app using dart to help students track course grades and to set a target with the use of a database to store and update user’s changes.",
+            "Dart",
+            "Google Flutter"
           )}
           {project(
             ims,
             "https://github.com/MostafaHamedd/Inventory-Management-System",
             "Inventory Managment System",
-            "An Inventory Management System app using Agile development that allows the user to customize and manage their own inventory."
+            "An Inventory Management System app using Agile development that allows the user to customize and manage their own inventory.",
+            "Java",
+            "Android Studio"
           )}
 
           {project(
             auto_reg,
             "https://github.com/MostafaHamedd/UManitoba-Course-Registration-Automation-Educational-Purposes-",
             "Automated Registration",
-            "A script using Selenium to automate the process of enrolling in courses at the University of Manitoba."
+            "A script using Selenium to automate the process of enrolling in courses at the University of Manitoba.",
+            "Python",
+            "Selenium"
           )}
         </div>
       </div>
