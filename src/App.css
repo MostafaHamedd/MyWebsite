@@ -1,9 +1,3 @@
-#root {
-  height: 100%;
-}
-.container {
-  height: 70%;
-}
 .App {
   text-align: center;
 }
@@ -210,7 +204,6 @@ footer {
   padding: 20px;
   text-align: center;
   margin-top: 50px;
-  height: 16%;
 }
 
 .under-construction {

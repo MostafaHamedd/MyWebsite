@@ -37,10 +37,7 @@ function project(img, url, title, dis, langs, tech) {
 
 function navBar() {
   return (
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark"
-      style={{ height: "8%" }}
-    >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand mx-auto" href="#"></a>
       <button
         class="navbar-toggler"
